@@ -2,7 +2,7 @@
 
 ### For program using FIFO as IPC Channels
 
-Command to compile and execute
+#### Command to compile and execute
 Open terminal and compile and execute the server program first
 
 ```
