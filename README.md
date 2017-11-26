@@ -20,12 +20,13 @@ network animator
 
 Steps to download the Prerequisites and clone the remote repository.
 
-download and install git, ns2, nam
+download and install git, ns2, nam, xgraph(needed for PartA-lab5).
 
 ```
 sudo apt-get install git
 sudo apt-get install ns2
 sudo apt-get install nam
+sudo apt-get install xgraph
 ```
 
 clone the repository
