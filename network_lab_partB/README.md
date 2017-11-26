@@ -3,14 +3,14 @@
 ### For program using FIFO as IPC Channels
 
 Command to compile and execute
-open terminal and compile and execute the server program first
+Open terminal and compile and execute the server program first
 
 ```
 cc 10s.c
 ./a.out
 ```
 
-open another terminal and compile and execute client program.
+Open another terminal and compile and execute client program.
 
 ```
 cc 10c.c
