@@ -36,7 +36,7 @@ int main() {
 		printf("The preferred path from %c to:\n",65+i);
 		for(j=0;j<n;j++) {
 			if(cost[i][j]!=999)
-				printf("%c:%d via %c\n",65+j,cost[i][j],65+cost[i][j]);
+				printf("%c:%d via %c\n",65+j,cost[i][j],65+via[i][j]);
 			else
 				printf("%c:No connection",65+j);
 		}
