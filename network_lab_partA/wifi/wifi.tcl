@@ -97,6 +97,7 @@ set sink1 [new Agent/TCPSink]
 $ns attach-agent $w1 $sink1
 
 $ns connect $tcp1 $sink1
+$ns connect $tcp0 $sink0
 
 $tcp1 set packetSize_ 5000
 
