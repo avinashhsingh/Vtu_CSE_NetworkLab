@@ -35,8 +35,8 @@ int main(int argc,char *argv[]) {
 	while((cont=recv(create_socket,buffer,bufsize,0))>0) {
 		write(1,buffer,cont);
 	}
+
 	printf("\nEOF\n");
 	return close(create_socket);
 }
-
 
